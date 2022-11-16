@@ -1,0 +1,19 @@
+tamanho = int(input("Digite a quantidade de números da sua lista: "))
+
+cont = 1
+
+lista = []
+
+for i in range(tamanho):
+
+  lista += (input("Informe o valor de x%d: " % (i+1)))
+
+vetor = lista
+
+print(f"esta é a sua lista, {vetor}")
+
+inverso = list(reversed(lista))
+print("esta é o inverso dela:", inverso)
+
+minimo = min(lista)
+print("este é o menor valor da sua lista:", minimo)
