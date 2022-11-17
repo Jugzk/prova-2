@@ -1,0 +1,17 @@
+import random
+dado = [1,2,3,4,5,6]
+player1 = []
+player2 = []
+while True:
+  comecar = int(input("digite 1 se deseja começar o jogo e 2 se deseja encerrar:"))
+  if comecar == 1:
+    player1d = random.shuffle(dado)
+    print("player 1:", dado)
+    player1 = player1d
+
+    player2d = random.shuffle(dado)
+    print("player 2:", dado)
+    player2 = player2d
+    comecar2 = int(input("digite 1 se deseja continuar: "))
+  else:
+    
