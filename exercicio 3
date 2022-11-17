@@ -1,0 +1,14 @@
+linhas = int(input("adicione o numero de linhas: "))
+colunas = int(input("adicione o numero de colunas: "))
+
+matrizlinha = [[0 for i in range(linhas)]]
+matrizcoluna = [[0for i in range(colunas)]]
+print(matrizlinha)
+print(matrizcoluna)
+
+for i in range(linhas):
+  addlinha = int(input("digite um numero inteiro para a linha da matriz"))
+  print(addlinha for i in range(linhas))
+for i in range(colunas):
+  addcoluna = int(input("digite um numero inteiro para a coluna da matriz"))
+  print(addcoluna for i in range(colunas))
