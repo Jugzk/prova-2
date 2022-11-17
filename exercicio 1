@@ -17,3 +17,6 @@ print("esta é o inverso dela:", inverso)
 
 minimo = min(lista)
 print("este é o menor valor da sua lista:", minimo)
+
+soma = sum(lista)   
+print(f'soma')      
