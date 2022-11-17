@@ -1,0 +1,48 @@
+
+matriz1 = [ 0.,  0.,  0.,  0., 0.]
+matriz2 = [ 0.,  0.,  0.,  0., 0.]
+matriz3 = [ 0.,  0.,  0.,  0., 0.]
+matriz4 = [ 0.,  0.,  0.,  0., 0.]
+matriz5= [ 0.,  0.,  0.,  0., 0.]
+
+print(matriz1)
+print(matriz2)
+print(matriz3)
+print(matriz4)
+print(matriz5)
+print("-----------------------------------------------------------------------")
+
+for index, value in enumerate(matriz1):
+    if value == 0:
+      matriz1[index] = 1
+
+for index, value in enumerate(matriz2):
+    if value == 0:
+      matriz2[index] = 1
+
+
+for index, value in enumerate(matriz3):
+    if value == 0:
+      matriz3[index] = 1
+
+for index, value in enumerate(matriz4):
+    if value == 0:
+      matriz4[index] = 1
+
+for index, value in enumerate(matriz5):
+    if value == 0:
+      matriz5[index] = 1
+
+
+matriz1 [0] = 0
+matriz2 [1] = 0
+matriz3 [2] = 0
+matriz4 [3] = 0
+matriz5 [4] = 0
+
+print(matriz1)
+print(matriz2)
+print(matriz3)
+print(matriz4)
+print(matriz5)
+print("-----------------------------------------------------------------------")
